@@ -1,0 +1,28 @@
+{
+  "name": "node-todo-list",
+  "version": "1.0.0",
+  "description": "Create todo list on NodeJS with Express and Mongo db",
+  "main": "index.js",
+  "scripts": {
+    "start": "index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valorit/node-todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valorit/node-todo-list/issues"
+  },
+  "homepage": "https://github.com/Valorit/node-todo-list#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
